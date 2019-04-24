@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  
+  /*margin-bottom: 60px;*/
+}
+.footer {
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  /*position: absolute;*/
+  width: 100%;
+  bottom:0;
+}
+.item_btn_group {
+  width: 22%;
+}
+
+.item_btn {
+  margin-right: 10px;
+}
+
+.item_btn:nth-child(3){
+  margin-right:0px;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .text-muted {
+  margin: 20px 0 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.code {
+  font-size: 80%;
+}
+
+.branding img{
+  width:100px;
+}
+.barcode {
+  margin-top:50px;
+  height: 80px;
+  margin-left: 20px
+}
+.barcode-no {
+  margin-left: 65px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.list-sale-report tr td{
+  text-align: center;
+}
+/*----------complete sale style-----------*/
+.bottom_border{
+  border-bottom: 1px dotted #000000;
+}
+.subtotal input{
+  border:0px;
+}
